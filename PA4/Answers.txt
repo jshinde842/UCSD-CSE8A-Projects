@@ -1,0 +1,48 @@
+PARTNERS
+cse8afauy
+cse8afaha
+
+Examples for Method A
+hasLat(readLine(path, 15) => true
+hasLat(readLine(path, 16) => true
+hasLat(readLine(path, 42) => false
+
+Examples for Method B
+hasLong(readLine(path, 15) => true
+hasLong(readLine(path, 16) => true
+hasLong(readLine(path, 42) => false
+
+Examples for Method C
+isNorthOf(row17Path, coordLatitude) => true
+isNorthOf(row39Path, coordLatitude) => false
+isNorthOf(row40Path, coordLatitude) => false
+
+Examples for Method D
+isSouthOf(row17Path, coordLatitude) => false
+isSouthOf(row39Path, coordLatitude) => true
+isSouthOf(row40Path, coordLatitude) => true
+
+Examples for Method E
+isEastOf(row17Path, coordLongitude) => false
+isEastOf(row39Path, coordLongitude) => true
+isEastOf(row40Path, coordLongitude) => false
+
+Examples for Method F
+isWestOf(row17Path, coordLongitude) => true
+isWestOf(row39Path, coordLongitude) => false
+isWestOf(row40Path, coordLongitude) => true
+
+Examples for Method G
+inBox(row17Path, SWLat, SWLong, NELat, NELong) => false
+inBox(row39Path, SWLat, SWLong, NELat, NELong) => true
+inBox(row40Path, SWLat, SWLong, NELat, NELong) => false
+
+Examples for Method H
+eventOfType(row14Path, givenEvent) => true
+eventOfType(row17Path, givenEvent) => true
+eventOfType(row31Path, givenEvent) => false
+
+Examples for Method I
+hasNumAttend(row17Path) => true
+hasNumAttend(row39Path) => true
+hasNumAttend(row40Path) => true

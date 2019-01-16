@@ -1,0 +1,15 @@
+SECTION 1: CSE8A Account names
+  PARTNERS
+  cs8afauy
+  cs8afail
+SECTION 2: Examples
+  scaleTo Example 1
+    The image used is crane.jpg with dimensions 781x720. The image was scaled to 1000x1000 using the method scaleTo().
+  canvas Example 1
+    The image created was a pink square with dimensions 1000x1000 using the method canvas().
+  frame Example 1
+    The image created is a black square with a green frame that is 20 pixels thick.
+  crop Example 1
+    The image created was a cropped version that showed an area of crane.jpg in the bottom. The dimensions are 500x200.
+  overlay Example 1
+    The image created is an overlay of crane.jpg onto a black canvas of dimensions 1000x1000.

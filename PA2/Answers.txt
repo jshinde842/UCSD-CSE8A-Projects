@@ -1,0 +1,9 @@
+1: would change - switch latitude and longitude columns
+   would not change - switch place_name and category
+2: No; none of the lines in the config files reference other variables.
+3: Yes; moving destData after any line 4-7 would cause it to fail as lines 4-7 all reference it
+4:
+
+Mathieu Morissette,Math,Muir Woods Coffee House,32.8789,-117.2425,dining
+Jay Shinde,Jay,La Jolla Cove,32.8505,-117.2729,sightseeing
+Jay Shinde,Jay,Middle Earth Lounge,32.8853,-117.2431,recreation

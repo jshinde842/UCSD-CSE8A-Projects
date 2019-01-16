@@ -1,4 +1,0 @@
-1. I predict the result will be exactly the same because the 8ALib.java file primarily introduced a library of commands, however none of those commands are present in PA1.java. My prediction was correct.
-2. a) Java first finds the index of (p,",") and then the resulting expression is substring(p,0,indexOf(p,",")).
-2. b) Java calculates the length of the string and index numbers as given by the expression (substring(m,0,indexOf(m,",")))
-2. c)The entire set of expressions is basically the coordinates of a place and the string "Coordinates: " right before the number.

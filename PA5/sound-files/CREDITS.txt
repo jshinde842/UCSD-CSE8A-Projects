@@ -1,0 +1,9 @@
+You will fill this file in with information crediting the sources for the sounds you download
+
+Sound A:
+http://bbcsfx.acropolis.org.uk
+https://github.com/bbcarchdev/Remarc/blob/master/doc/2016.09.27_RemArc_Content%20licence_Terms%20of%20Use_final.pdf
+
+Sound B:
+http://bbcsfx.acropolis.org.uk
+https://github.com/bbcarchdev/Remarc/blob/master/doc/2016.09.27_RemArc_Content%20licence_Terms%20of%20Use_final.pdf

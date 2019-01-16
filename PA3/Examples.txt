@@ -1,0 +1,63 @@
+In => Expected Out
+
+
+Examples for commafy
+
+String jayshinde = commafy("jayshinde"); => ",jayshinde,"
+String politz = commafy("politz"); => ",politz,"
+String EleanorRooseveltCollege = commafy("EleanorRooseveltCollege"); => ",EleanorRooseveltCollege,"
+
+
+
+Examples for numColumns
+
+int colNumHarvey = numColumns(harveyRow0); => 6
+int colNumKatia = numColumns(katiaRow0); => 6
+int colNumDon = numColumns(donRow0); => 6
+
+
+Examples for dataAtColumn
+
+String harveyColDAC = dataAtColumn(row20Path, colIndexDAC1); => "21.7"
+String harveyColDAC2 = dataAtColumn(row21Path, colIndexDAC2); => "-92.6"
+String harveyColDAC3 = dataAtColumn(row22Path, colIndexDAC3); => "40"
+
+
+
+Examples for intAtColumn
+
+int harveyIAC1 = intAtColumn(row13Path, colIndexIAC1); => 40
+int harveyIAC2 = intAtColumn(row16Path, colIndexIAC2); => 35
+int harveyIAC3 = intAtColumn(row15Path, colIndexIAC3); => 35
+
+
+
+Examples for doubleAtColumn
+
+double harveyDoubleAC1 = doubleAtColumn(row30Path, colIndexDoubleAC1); => 85.0
+double harveyDoubleAC2 = doubleAtColumn(row31Path, colIndexDoubleAC2); => 85.0
+double harveyDoubleAC3 = doubleAtColumn(row32Path, colIndexDoubleAC3); => 85.0
+
+
+
+Examples for getLatitude
+
+double harveyLat1 = getLatitude(row40Path); => 26.3
+double harveyLat2 = getLatitude(row41Path); => 26.4
+double harveyLat3 = getLatitude(row42Path); => 26.5
+
+
+
+Examples for getLongitude
+
+double harveyLong1 = getLongitude(row50Path); => -96.6
+double harveyLong2 = getLongitude(row51Path); => -96.7
+double harveyLong3 = getLongitude(row52Path); => -96.8
+
+
+
+Examples for radiusFromRow
+
+double harveyRad1 = radiusFromRow(row60Path); => 2200.0
+double harveyRad2 = radiusFromRow(row61Path); => 2000.0
+double harveyRad3 = radiusFromRow(row62Path); => 1800.0

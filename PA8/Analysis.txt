@@ -1,0 +1,2 @@
+OPEN ENDED QUESTIONS
+The time does not affect anything so theres is nothing that needs to be changed. The method created outputs an array that is independent of the time. Each index is a set time in between that does not change.

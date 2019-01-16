@@ -1,0 +1,35 @@
+1. CSE8A Account Names
+
+cs8afauy
+cs8afail
+
+2. Examples
+
+Image grayExample1Expect => checker5green.bmp WIDTH = 5, HEIGHT = 5, PIXELS = greenchecker.getPixels(), The image consists of a white and green checkerboard. Once the method grayscale() is used on this image, it will become a white and gray checkerboard.
+Image grayExample2Expect => cute_cat_and_dog_3.jpg WIDTH = 1878, HEIGHT = 1774, PIXELS = catDog.getPixels(),Each pixel is grayscaled by the use of the method grayscalePixels() which is included in the method grayscale().
+
+Image complementExample1Expect => checker5green.bmp WIDTH = 5, HEIGHT = 5, PIXELS = greenchecker.getPixels(), The image consists of a white and green checkerboard. Once the method complement() is used on this image, the checkerboard is white and blue because the green is switched out with the blue.
+Image complementExample2Expect => cute_cat_and_dog_3.jpg WIDTH = 1878, HEIGHT = 1774, PIXELS = catDog.getPixels(), Once the method complement() is used on this image, each pixel's blue and green values are switched, altering the image's color composition.
+
+Image chromascaleExample1Expect => checker5green.bmp WIDTH = 5, HEIGHT = 5, PIXELS = greenchecker.getPixels(), The image consists of a white and green checkerboard. Once the method chromascale() is used on this image, the checkerboard is black and turquoise because the picture's rgb values are only in shades of turquoise.
+Image chromascaleExample2Expect => cute_cat_and_dog_3.jpg WIDTH = 1878, HEIGHT = 1774, PIXELS = catDog.getPixels(), Once the method chromascale() is used on this image, the whole image turns into a shade of violet.
+
+Image gradientExample1Expected => WIDTH = 1000, HEIGHT = 1000, The image created has a gradient squared of the dimensions that goes from blue to white.
+Image gradientExample2Expected => WIDTH = 1000, HEIGHT = 1000, The image created has a gradient squared of the dimensions that goes from green to black.
+
+Image chromakeyExample1Expect =>The image created is essentially checker5green because the threshold was not exceeded.
+Image chromakeyExample2Expect =>The image created is black and white grid of pixels because the threshold was not exceeded.
+3. Open-Ended Questions
+Variable table
+type / name / value
+Color[] / array1 / @A
+Color[] / array2 / @B
+Color[] / array3 / @A
+Heap diagram
+reference / value
+@A / {new Color(0,0,0), new Color(128, 0, 128), new Color(85, 128, 128)}
+@B / {new Color(0,0,255), new Color(85,85,85), new Color(113,113,113)}
+
+A. Black, white or gray. The complement method produces indexes with the same values.
+B. Index is not needed because there is no array to begin with, however, weightFor1 is needed in order to scale the gradient.
+C. There wouldn't be a Image fg since the Image bg uses every single pixel in the image.
